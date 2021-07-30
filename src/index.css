@@ -5,9 +5,108 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.home-title-btn a , .btn-submit{
+  color: rgb(255, 255, 255);
+  background-color: rgb(83, 83, 83);
+  padding: 8px 25px;
+  border-radius: 30px;
+  margin: 20px 0px;
+  transition: .5s;
+  display: inline-block;
+}
+.home-title-btn a:hover{
+  border: 1px solid rgb(83, 83, 83);
+  background: none;
+}
+.table{
+  text-align: center;
+}
+.table tr td{
+  line-height: 2;
+}
+.table thead{
+color: rgb(255, 0, 0);
+text-transform: capitalize;
+
+}
+/*  */
+.table tbody tr td:last-child a{
+text-decoration: none;
+color: #ffffff;
+border:2px solid #ffffff;
+padding: 5px 18px;
+text-transform: capitalize;
+border-radius: 15px ;
+margin-right: auto;
+
+}
+.table tbody tr td:last-child button  {
+  text-decoration: none;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  padding: 1px 18px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  background: none;
+  outline: none;
+  margin: 1px 0px 0px 1px;
+}
+.add{
+  padding: 30px 0px;
+}
+.add .add-contact{
+  color: #ff0000;
+  margin: 40px 0px;
+}
+.text-center{
+  margin: auto;
+}
+.form-box{
+  border:1px solid #ddd;
+}
+.form-group{
+  width: 100%;
+  margin: 30px 0px;
+}
+.input{
+  width: 90%;
+  padding: 10px 15px;
+  border:1px solid #ff0000;
+  color: #ff0000;
+  outline: #ff0000;
+  border-radius: 30px;
+}
+.input::placeholder{
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.btn-submit{
+  border : none
+}
+.cancel{
+  color: #ff0000;
+  text-transform: capitalize;
+  border: 2px solid #ff0000;
+  padding: 7px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: .5s;
+  margin-left: 20px;
+}
+.cancel:hover{
+  background-color: #ff0000;
+  color: #ddd;
 }
